@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.xtBanner {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.xtBanner ul {
+	display: block;
+	list-style: none;
+	position: relative !important;
+}
+
+.xtBanner ul li,
+.xtBanner .xtItem {
+	display: block;
+	left: 0;
+	list-style: none;
+	position: absolute !important;
+	top:0;
+}
+
+.xtBanner ul li a,
+.xtBanner .xtItem .xtContent {
+	position: relative !important;
+} 
